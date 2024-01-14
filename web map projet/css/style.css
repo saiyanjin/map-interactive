@@ -1,0 +1,243 @@
+#neubar {
+    background: rgb(255, 255, 255);
+  }
+  
+.nav-item .active {
+    border-radius: 6px;
+}
+
+#neubar .nav-item {
+    margin : auto 4px;
+}
+
+#neubar a {
+    padding-left:12px;
+    padding-right:12px;
+}
+
+#neubar .dropdown-menu {
+    background : #FFF
+}
+
+a.navbar-brand {
+    color: #454545
+}
+
+#rechercher {
+    border: px solid pink;
+    margin-top: 70px;
+    text-align: center;
+    color: #5c5c5c;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-search-input {
+    background: #fff;
+    padding: 0 120px 0 0;
+    border-radius: 1px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 0px 6px rgba(192, 192, 192, 0.3);
+}
+
+.fl-wrap {
+    width: 100%;
+    position: relative;
+}
+
+.main-search-input:before {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    width: 50px;
+    height: 1px;
+    background: #183c99;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.main-search-input-item {
+    width: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid #eee;
+    height: 50px;
+    position: relative;
+}
+
+.main-search-input-item input:first-child {
+    border-radius: 100%;
+}
+
+.main-search-input-item input {
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.main-search-button{
+    background: #3f4fff;
+}
+
+.main-search-button {
+    position: absolute;
+    right: 0px;
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    top: 0;
+    border: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+}
+
+.main-search-input-wrap {
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+
+:focus {
+    outline: 0;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.left-half {
+    flex: 0.6; /* La moitié de gauche prend 60% de l'espace disponible */
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    /* padding: 10px; */
+}
+
+.right-half {
+    flex: 0.4; /*La moitié de droite prend 40% de l'espace disponible */
+    /* border: 1px solid #ccc; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+
+#maCarte {
+    height: 500px;
+}
+
+#barreDeSaisie {
+    /* margin-top: 10px; */
+    width: 100%;
+}
+
+/* ************************************************************DEBUT FOOTER************************************************************** */
+
+#btn-res {
+    border: px solid red;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    display: inline-block;
+	color: white;
+	background-color: #0d2153;
+	opacity: 90%;
+	margin: 20px;
+	font-size: 22px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 43px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.bouton:hover{
+	transform: scale(0.95);
+    transition-duration: 0.2s;
+	box-shadow: none;
+}
+
+.bouton:active{
+	transform: scale(0.85);
+    transition-duration: 0.09s;
+	box-shadow: none;
+}
+
+#twitter:hover {
+    color: white;
+	background: radial-gradient(circle at 33% 100%, #1a8cd8 4%, #1a8cd8 30%, #1a8cd8 62%, #1a8cd8 85%, #1a8cd8);
+	transition-duration: 0.3s;
+}
+
+#insta:hover {
+    color: white;
+	background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+	transition-duration: 0.3s;
+}
+
+#facebook:hover {
+    color: white;
+	background: #0866ff;
+	background: radial-gradient(circle at 33% 100%, #0866ff 4%, #0866ff 30%, #0866ff 62%, #0866ff 85%, #0866ff);
+	transition-duration: 0.3s;
+}
+
+#youtube:hover {
+    color: white;
+	background: #ff0000;
+	background: radial-gradient(circle at 33% 100%, #ff0000 4%, #ff0000 30%, #ff0000 62%, #ff0000 85%, #ff0000);
+	transition-duration: 0.3s;
+}
+
+#progress-bar-container {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+#progress-bar {
+    z-index: 100;
+    height: 100%;
+    background-color: #469400;
+}
+
+
+/* ************************************************************FIN FOOTER************************************************************** */
+
+.barre_titre:before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    width: 50px;
+    height: 1px;
+    background: #183c99;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.formulaire {
+    margin-top: 70px; 
+    margin-right: 25%; 
+    margin-left:25%; 
+    border: 1px solid #ccc; 
+    padding: 5%; 
+    border-radius: 5px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#geoloc {
+    border: px solid red;
+    text-align: center;
+}
+
